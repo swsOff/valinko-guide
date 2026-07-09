@@ -1,0 +1,637 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Checklist achat backlinks : vérifications avant d’acheter | Valinko</title>
+  <meta name="description" content="Checklist complète avant d’acheter des backlinks : cohérence thématique, indexation, trafic, qualité éditoriale, liens sortants, type de lien et page cible.">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Checklist avant d’acheter des backlinks">
+  <meta property="og:description" content="Les vérifications à faire avant d’acheter des backlinks pour éviter de gaspiller votre budget SEO.">
+  <meta property="og:url" content="https://swsoff.github.io/valinko-guide/">
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --surface-soft: #eef4ff;
+      --text: #101828;
+      --muted: #475467;
+      --line: #e4e7ec;
+      --blue: #1063ff;
+      --blue-dark: #084fd3;
+      --shadow: 0 24px 70px rgba(16, 24, 40, 0.10);
+      --radius: 24px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(16, 99, 255, 0.14), transparent 34rem),
+        linear-gradient(180deg, #ffffff 0%, var(--bg) 42%);
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--blue);
+      font-weight: 750;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      width: min(1120px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 44px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      color: #0b1220;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--blue), #00d486);
+      box-shadow: 0 12px 30px rgba(16, 99, 255, 0.25);
+    }
+
+    .toplink {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 0 16px;
+      border: 1px solid rgba(16, 99, 255, 0.20);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--blue-dark);
+      font-size: 14px;
+      font-weight: 800;
+      box-shadow: 0 10px 28px rgba(16, 24, 40, 0.06);
+    }
+
+    .hero {
+      max-width: 940px;
+      margin-bottom: 34px;
+    }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 18px;
+      padding: 8px 12px;
+      border: 1px solid rgba(16, 99, 255, 0.18);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.78);
+      color: var(--blue-dark);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    h1 {
+      max-width: 980px;
+      margin: 0 0 22px;
+      font-size: clamp(38px, 6vw, 68px);
+      line-height: 1.02;
+      letter-spacing: -0.06em;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(19px, 2vw, 23px);
+      line-height: 1.55;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    article {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: var(--shadow);
+    }
+
+    .content {
+      padding: clamp(28px, 5vw, 58px);
+    }
+
+    .content > h1 {
+      display: none;
+    }
+
+    .content > p:first-of-type {
+      font-size: 22px;
+      line-height: 1.55;
+      color: #344054;
+    }
+
+    h2 {
+      margin: 52px 0 18px;
+      padding-top: 30px;
+      border-top: 1px solid var(--line);
+      font-size: clamp(25px, 3vw, 34px);
+      line-height: 1.18;
+      letter-spacing: -0.035em;
+    }
+
+    h2:first-of-type {
+      margin-top: 34px;
+    }
+
+    p {
+      margin: 18px 0;
+      font-size: 18px;
+    }
+
+    ul {
+      margin: 18px 0 26px;
+      padding-left: 0;
+      list-style: none;
+    }
+
+    li {
+      position: relative;
+      margin: 10px 0;
+      padding-left: 28px;
+      font-size: 18px;
+    }
+
+    li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.72em;
+      width: 9px;
+      height: 9px;
+      border-radius: 999px;
+      background: var(--blue);
+      box-shadow: 0 0 0 5px rgba(16, 99, 255, 0.10);
+    }
+
+    blockquote {
+      margin: 26px 0;
+      padding: 22px 24px;
+      border-left: 5px solid var(--blue);
+      border-radius: 0 18px 18px 0;
+      background: var(--surface-soft);
+      color: #1d2939;
+    }
+
+    blockquote p {
+      margin: 0;
+      font-size: 19px;
+      font-weight: 650;
+    }
+
+    pre {
+      overflow-x: auto;
+      margin: 22px 0;
+      padding: 18px 20px;
+      border: 1px solid #d0d5dd;
+      border-radius: 16px;
+      background: #0b1220;
+      color: #e6edf7;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    code {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+
+    p code {
+      padding: 3px 7px;
+      border-radius: 7px;
+      background: #eef2f7;
+      color: #101828;
+      font-size: 0.92em;
+    }
+
+    .toc {
+      position: sticky;
+      top: 22px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.86);
+      box-shadow: 0 18px 48px rgba(16, 24, 40, 0.08);
+      backdrop-filter: blur(12px);
+    }
+
+    .toc-title {
+      margin: 0 0 14px;
+      color: #0b1220;
+      font-size: 14px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .toc ol {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .toc li {
+      margin: 9px 0;
+      padding-left: 0;
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .toc li::before {
+      display: none;
+    }
+
+    .toc a {
+      color: #344054;
+      font-weight: 650;
+    }
+
+    .toc a:hover {
+      color: var(--blue);
+    }
+
+    .cta-box {
+      margin-top: 56px;
+      padding: clamp(26px, 4vw, 38px);
+      border: 1px solid rgba(16, 99, 255, 0.18);
+      border-radius: 24px;
+      background:
+        radial-gradient(circle at top right, rgba(16, 99, 255, 0.16), transparent 20rem),
+        linear-gradient(135deg, #f8fbff, #eef4ff);
+    }
+
+    .cta-box .eyebrow {
+      margin: 0 0 8px;
+      color: var(--blue-dark);
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .cta-box h2 {
+      margin: 0 0 14px;
+      padding: 0;
+      border: 0;
+      font-size: clamp(27px, 3vw, 38px);
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8px;
+      min-height: 50px;
+      padding: 0 20px;
+      border-radius: 999px;
+      background: var(--blue);
+      color: #fff;
+      font-weight: 900;
+      box-shadow: 0 14px 34px rgba(16, 99, 255, 0.28);
+    }
+
+    .button:hover {
+      background: var(--blue-dark);
+      text-decoration: none;
+    }
+
+    @media (max-width: 980px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .toc {
+        position: static;
+        order: -1;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        width: min(100% - 24px, 1120px);
+        padding-top: 28px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 34px;
+      }
+
+      .content {
+        padding: 24px;
+      }
+
+      p,
+      li {
+        font-size: 17px;
+      }
+
+      .content > p:first-of-type {
+        font-size: 19px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <a class="brand" href="https://valinko.com/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Valinko</span>
+      </a>
+      <a class="toplink" href="https://valinko.com/">Comparer les backlinks</a>
+    </header>
+
+    <section class="hero">
+      <p class="kicker">Checklist netlinking</p>
+      <h1>Checklist avant d’acheter des backlinks</h1>
+      <p class="lead">Les vérifications à faire pour éviter de gaspiller votre budget SEO sur des sites qui ont de belles métriques, mais peu de vraie valeur.</p>
+    </section>
+
+    <div class="layout">
+      <article>
+        <div class="content">
+<h1>Checklist avant d’acheter des backlinks : les vérifications à faire pour éviter de gaspiller votre budget SEO</h1>
+<p>Acheter des backlinks peut accélérer une stratégie SEO. Mais acheter des backlinks sans méthode, c’est surtout le moyen le plus rapide de brûler un budget netlinking sur des sites qui ne transmettent presque rien.</p>
+<p>Le problème ne vient pas toujours du lien lui-même. Il vient souvent de ce qu’on vérifie avant d’acheter.</p>
+<p>Beaucoup d’entreprises regardent trois chiffres, se rassurent, puis commandent : Domain Rating, Trust Flow, trafic estimé. Sur le papier, ça a l’air propre. Dans la réalité, le site peut être hors thématique, rempli de contenus dupliqués, sur-optimisé, mal indexé, sans trafic qualifié, ou déjà utilisé par des dizaines d’annonceurs SEO.</p>
+<p>Avant d’acheter un backlink, il faut donc une vraie checklist. Pas une liste vague du type “vérifier la qualité du site”. Une vraie méthode pour savoir si le lien peut aider votre référencement naturel ou s’il va juste ajouter une ligne inutile dans votre tableur.</p>
+<p>Cette checklist sert précisément à ça : analyser un site éditeur avant achat, éviter les backlinks de mauvaise qualité, comparer plusieurs supports et prioriser ceux qui ont le plus de chances de renforcer votre autorité SEO.</p>
+<h2>1. Vérifier la cohérence thématique du site éditeur</h2>
+<p>La première question n’est pas : “Quel est le DR du site ?”</p>
+<p>La première question est : “Est-ce que ce site parle à mon audience ?”</p>
+<p>Un backlink depuis un site à forte autorité mais sans rapport avec votre secteur peut être beaucoup moins intéressant qu’un lien depuis un site plus modeste, mais parfaitement aligné avec votre thématique.</p>
+<p>Pour un site e-commerce de mobilier, un lien depuis un blog décoration, maison, architecture intérieure ou lifestyle habitat a du sens. Pour une agence SEO, un lien depuis un média marketing, SaaS, acquisition, entrepreneuriat ou communication digitale est cohérent. Pour une marketplace de backlinks comme Valinko, les thématiques pertinentes tournent autour du SEO, du netlinking, du content marketing, de l’acquisition B2B, de la visibilité Google et des outils marketing.</p>
+<p>À vérifier :</p>
+<ul>
+<li>le sujet principal du site ;</li>
+<li>les catégories éditoriales ;</li>
+<li>les derniers articles publiés ;</li>
+<li>la cohérence entre les contenus récents et votre secteur ;</li>
+<li>la présence d’articles sponsorisés complètement hors sujet.</li>
+</ul>
+<p>Un site qui publie un article sur les assurances le lundi, les casinos le mardi, les baskets le mercredi et les backlinks le jeudi est rarement un bon support. Même avec un joli score Ahrefs ou Semrush.</p>
+<h2>2. Contrôler l’indexation réelle du site dans Google</h2>
+<p>Un backlink ne sert pas à grand-chose si la page qui vous mentionne n’est pas indexée.</p>
+<p>Avant d’acheter un lien, vérifiez que Google explore et indexe correctement le site éditeur.</p>
+<p>La méthode la plus simple consiste à rechercher :</p>
+<pre><code>site:exemple.com</code></pre>
+<p>Puis à regarder :</p>
+<ul>
+<li>le nombre approximatif de pages indexées ;</li>
+<li>la fraîcheur des dernières pages visibles ;</li>
+<li>la présence ou non des articles récents ;</li>
+<li>l’absence de problèmes évidents d’indexation.</li>
+</ul>
+<p>Un site peut avoir de bonnes métriques SEO historiques mais publier des pages qui ne s’indexent plus. Dans ce cas, votre backlink peut rester invisible pour Google pendant des semaines, voire ne jamais être pris en compte correctement.</p>
+<p>Il faut aussi vérifier les pages similaires déjà publiées. Si les derniers articles sponsorisés ne ressortent pas dans Google, mauvais signal.</p>
+<p>Recherche utile :</p>
+<pre><code>site:exemple.com "mot clé de l’article sponsorisé"</code></pre>
+<p>Si Google ne trouve rien ou seulement la page d’accueil, méfiance.</p>
+<h2>3. Analyser la qualité éditoriale des articles publiés</h2>
+<p>La qualité du contenu autour du backlink compte autant que le lien.</p>
+<p>Un bon article de netlinking ne doit pas ressembler à un texte généré à la chaîne avec un titre vague, des paragraphes plats et une ancre posée au milieu sans logique.</p>
+<p>Avant d’acheter un backlink, ouvrez plusieurs articles récents du site et regardez :</p>
+<ul>
+<li>les titres ;</li>
+<li>la longueur des articles ;</li>
+<li>la structure H2 / H3 ;</li>
+<li>la richesse du vocabulaire ;</li>
+<li>la présence d’exemples concrets ;</li>
+<li>la qualité des introductions ;</li>
+<li>la lisibilité mobile ;</li>
+<li>les liens internes ;</li>
+<li>les liens sortants.</li>
+</ul>
+<p>Un article de 400 mots, sans profondeur, avec trois liens commerciaux dans le premier écran, est rarement un bon environnement pour construire une autorité SEO durable.</p>
+<p>À l’inverse, un article structuré, utile, indexable, cohérent avec le reste du site et écrit pour un lecteur réel donne un meilleur contexte sémantique à votre backlink.</p>
+<p>Google Search Central insiste régulièrement sur l’intérêt d’un contenu utile, fiable et pensé pour les utilisateurs. Même si le lien reste important en SEO, il ne doit pas être isolé dans une page faible.</p>
+<h2>4. Vérifier le trafic organique estimé</h2>
+<p>Le trafic n’est pas une garantie absolue, mais c’est un filtre très utile.</p>
+<p>Un site qui a une autorité correcte mais aucun trafic organique visible pose question. Soit ses métriques sont artificiellement gonflées, soit il a perdu ses positions, soit il vit uniquement grâce à d’anciens liens entrants.</p>
+<p>Des outils comme Ahrefs, Semrush, Sistrix, Ubersuggest ou Similarweb permettent d’estimer la visibilité organique d’un domaine.</p>
+<p>À observer :</p>
+<ul>
+<li>le trafic organique estimé ;</li>
+<li>les mots-clés positionnés ;</li>
+<li>l’évolution de la courbe ;</li>
+<li>les pages qui génèrent du trafic ;</li>
+<li>les pays principaux ;</li>
+<li>la proportion de trafic de marque.</li>
+</ul>
+<p>Un site français avec 90 % de trafic depuis l’Inde, le Pakistan ou les États-Unis alors qu’il publie pour le marché français doit être analysé avec prudence.</p>
+<p>Le bon signal, ce n’est pas seulement “il a du trafic”. C’est : “il a du trafic cohérent avec ma cible”.</p>
+<h2>5. Regarder les pages qui rankent vraiment</h2>
+<p>Le trafic global du site peut être trompeur.</p>
+<p>Un domaine peut afficher 30 000 visites estimées par mois, mais 95 % de ce trafic peut venir d’une seule page hors sujet. Dans ce cas, acheter un lien sur un article sponsorisé perdu dans une catégorie secondaire n’aura pas forcément beaucoup d’impact.</p>
+<p>Il faut donc regarder quelles pages génèrent réellement la visibilité du site.</p>
+<p>Questions à poser :</p>
+<ul>
+<li>Les pages qui rankent sont-elles proches de votre thématique ?</li>
+<li>Le site a-t-il plusieurs contenus positionnés ou seulement une page chanceuse ?</li>
+<li>Le trafic est-il stable ou très dépendant d’un seul mot-clé ?</li>
+<li>Les articles sponsorisés ont-ils déjà pris des positions dans Google ?</li>
+</ul>
+<p>Un site éditeur intéressant doit avoir une vraie empreinte sémantique. Il doit être reconnu par Google sur un univers de sujets, pas uniquement porté par une page isolée.</p>
+<h2>6. Évaluer le profil de liens du site</h2>
+<p>Avant de payer pour obtenir un backlink depuis un site, il faut regarder comment ce site a lui-même construit son autorité.</p>
+<p>Un bon site éditeur possède généralement :</p>
+<ul>
+<li>des backlinks depuis des domaines variés ;</li>
+<li>des liens provenant de sites cohérents ;</li>
+<li>des ancres naturelles ;</li>
+<li>un historique de croissance réaliste ;</li>
+<li>peu de signaux de spam.</li>
+</ul>
+<p>À l’inverse, méfiance si vous voyez :</p>
+<ul>
+<li>des centaines de liens depuis des annuaires douteux ;</li>
+<li>des ancres sur-optimisées ;</li>
+<li>des domaines référents sans rapport ;</li>
+<li>une explosion artificielle de liens sur une courte période ;</li>
+<li>des liens depuis des sites adultes, casino, crypto douteuse ou contenus automatiques.</li>
+</ul>
+<p>Majestic permet de regarder le Trust Flow et le Citation Flow. Ahrefs affiche le Domain Rating et les domaines référents. Moz propose le Domain Authority. Aucun de ces indicateurs n’est parfait, mais combinés, ils aident à repérer les profils anormaux.</p>
+<p>Le piège classique : acheter un backlink sur un site qui a lui-même acheté de mauvais backlinks pour gonfler ses métriques.</p>
+<h2>7. Vérifier le nombre de liens sortants</h2>
+<p>Un site éditeur qui vend trop de liens finit souvent par perdre en valeur.</p>
+<p>Avant d’acheter un backlink, regardez combien de liens externes sortent des articles récents.</p>
+<p>Un article avec un lien externe naturel vers une source, une étude ou un outil peut être normal. Mais une page avec cinq liens commerciaux vers cinq sites sans rapport est moins rassurante.</p>
+<p>À vérifier :</p>
+<ul>
+<li>combien de liens externes sont présents par article ;</li>
+<li>vers quels types de sites ils pointent ;</li>
+<li>si les ancres sont naturelles ;</li>
+<li>si les liens semblent éditoriaux ou purement commerciaux ;</li>
+<li>si le site publie beaucoup d’articles invités.</li>
+</ul>
+<p>Un bon backlink est placé dans un environnement propre. Il ne doit pas être noyé au milieu d’un cimetière de liens.</p>
+<h2>8. Contrôler le type de lien : dofollow, nofollow, sponsored ou ugc</h2>
+<p>Avant d’acheter, demandez clairement le type de lien.</p>
+<p>Un lien classique sans attribut <code>rel</code> spécifique est généralement interprété comme un lien suivi. En revanche, certains liens peuvent être marqués avec :</p>
+<pre><code>rel="nofollow"
+rel="sponsored"
+rel="ugc"</code></pre>
+<p>Pour une stratégie netlinking orientée autorité SEO, le type de lien doit être connu avant la commande. Il ne faut pas découvrir après publication que le backlink est en nofollow ou sponsored si votre objectif était d’obtenir un lien suivi.</p>
+<p>La vérification se fait dans le code source de la page publiée. Il suffit de rechercher votre domaine, puis d’observer la balise HTML du lien.</p>
+<p>Exemple :</p>
+<pre><code>&lt;a href="https://valinko.com/"&gt;Valinko&lt;/a&gt;</code></pre>
+<p>Ici, aucun attribut nofollow, sponsored ou ugc n’est visible.</p>
+<p>Mais si le code contient :</p>
+<pre><code>&lt;a href="https://valinko.com/" rel="nofollow sponsored"&gt;</code></pre>
+<p>Alors le lien n’a pas la même valeur SEO attendue.</p>
+<h2>9. Vérifier l’emplacement du backlink dans l’article</h2>
+<p>Tous les liens ne se valent pas.</p>
+<p>Un lien placé naturellement dans le corps de l’article, au milieu d’un paragraphe utile, est généralement plus intéressant qu’un lien en bio auteur, en footer ou dans un bloc “partenaires”.</p>
+<p>L’idéal est un lien contextuel, intégré à une phrase logique.</p>
+<p>Exemple naturel :</p>
+<blockquote><p>Avant de commander une publication sponsorisée, il peut être utile de comparer les sites éditeurs, leurs métriques, leurs prix et leurs délais de publication avec une plateforme spécialisée comme <a href="https://valinko.com/">Valinko</a>.</p></blockquote>
+<p>C’est beaucoup plus propre qu’une phrase du type :</p>
+<blockquote>
+<p>Pour acheter backlinks pas cher, cliquez ici.</p>
+</blockquote>
+<p>Le contexte doit expliquer pourquoi le lien existe. L’ancre doit être descriptive sans être sur-optimisée. Et le lien doit aider le lecteur à approfondir un point précis.</p>
+<h2>10. Comparer le prix avec la valeur réelle du support</h2>
+<p>Un backlink cher n’est pas forcément bon. Un backlink pas cher n’est pas forcément mauvais.</p>
+<p>Le prix doit être comparé à plusieurs éléments :</p>
+<ul>
+<li>autorité du domaine ;</li>
+<li>trafic organique ;</li>
+<li>qualité éditoriale ;</li>
+<li>pertinence thématique ;</li>
+<li>délai de publication ;</li>
+<li>indexation ;</li>
+<li>emplacement du lien ;</li>
+<li>nombre de liens sortants ;</li>
+<li>historique du site ;</li>
+<li>visibilité réelle dans Google.</li>
+</ul>
+<p>Deux sites peuvent afficher le même tarif, mais n’avoir aucun rapport en valeur SEO.</p>
+<p>Par exemple, un site à 80 € avec une vraie cohérence thématique, du trafic français et des articles indexés peut être plus rentable qu’un site à 250 € avec un gros DR mais une ligne éditoriale incohérente.</p>
+<p>Le bon réflexe est de comparer plusieurs éditeurs avant achat, au lieu de commander uniquement parce qu’une métrique semble rassurante.</p>
+<h2>11. Vérifier la page de destination avant d’acheter le lien</h2>
+<p>C’est l’erreur la plus fréquente : acheter des backlinks vers une page qui ne mérite pas encore de recevoir des liens.</p>
+<p>Avant d’envoyer de l’autorité vers une page, vérifiez :</p>
+<ul>
+<li>le title SEO ;</li>
+<li>le H1 ;</li>
+<li>l’intention de recherche ;</li>
+<li>la clarté de l’offre ;</li>
+<li>la profondeur du contenu ;</li>
+<li>le maillage interne ;</li>
+<li>la vitesse de chargement ;</li>
+<li>la qualité du CTA ;</li>
+<li>la capacité de la page à convertir.</li>
+</ul>
+<p>Un backlink ne sauve pas une mauvaise landing page. Il amplifie ce qui existe déjà.</p>
+<p>Si votre page est vague, lente, mal structurée ou incapable d’expliquer clairement ce qu’elle vend, le netlinking ne corrigera pas le problème. Il peut générer plus de visibilité, mais pas transformer une page faible en machine à convertir.</p>
+<h2>12. Prioriser les backlinks utiles, pas les backlinks impressionnants</h2>
+<p>La meilleure checklist avant d’acheter des backlinks tient en une phrase :</p>
+<blockquote>
+<p>Est-ce que ce lien a une vraie raison d’exister sur ce site, dans cet article, vers cette page ?</p>
+</blockquote>
+<p>Si la réponse est oui, le lien peut être intéressant.</p>
+<p>Si la réponse est non, même une grosse autorité ne suffit pas.</p>
+<p>Un bon backlink combine plusieurs signaux : pertinence thématique, page indexée, contenu correct, lien contextuel, trafic cohérent, profil propre, ancre naturelle et destination solide.</p>
+<p>Le netlinking ne doit pas être une collection de logos dans un tableau Excel. C’est un levier d’autorité qui doit soutenir une stratégie SEO claire.</p>
+<h2>Conclusion</h2>
+<p>Avant d’acheter des backlinks, ne vous contentez pas de regarder le Domain Rating, le Trust Flow ou le prix.</p>
+<p>Ces métriques peuvent aider à comparer, mais elles ne suffisent pas à prendre une bonne décision.</p>
+<p>Une checklist sérieuse doit intégrer la thématique, l’indexation, le trafic organique, la qualité éditoriale, le profil de liens, le type de lien, l’emplacement du backlink, les liens sortants et la qualité de la page cible.</p>
+<p>C’est cette méthode qui permet d’éviter les achats inutiles, les supports faibles et les liens qui ne produisent aucun effet mesurable.</p>
+<p>Acheter un backlink n’est pas le problème. Acheter le mauvais backlink, sur le mauvais site, vers la mauvaise page, au mauvais moment, voilà le vrai problème.</p>
+
+<section class="cta-box" aria-label="Comparer les backlinks avant achat">
+  <p class="eyebrow">Avant de commander</p>
+  <h2>Comparer les supports avant d’acheter vos backlinks</h2>
+  <p>Valinko permet de comparer les sites éditeurs, les métriques, les prix, les délais de publication et les signaux utiles avant de lancer une campagne de netlinking.</p>
+  <p><a class="button" href="https://valinko.com/">Comparer les sites sur Valinko</a></p>
+</section>
+
+        </div>
+      </article>
+
+      <aside class="toc" aria-label="Sommaire">
+        <p class="toc-title">Sommaire</p>
+        <ol>
+          <li><a href="#coherence-thematique">Cohérence thématique</a></li>
+          <li><a href="#indexation-google">Indexation Google</a></li>
+          <li><a href="#qualite-editoriale">Qualité éditoriale</a></li>
+          <li><a href="#trafic-organique">Trafic organique</a></li>
+          <li><a href="#pages-qui-rankent">Pages qui rankent</a></li>
+          <li><a href="#profil-liens">Profil de liens</a></li>
+          <li><a href="#liens-sortants">Liens sortants</a></li>
+          <li><a href="#type-lien">Type de lien</a></li>
+          <li><a href="#emplacement-backlink">Emplacement du lien</a></li>
+          <li><a href="#prix-valeur">Prix et valeur</a></li>
+          <li><a href="#page-destination">Page cible</a></li>
+          <li><a href="#prioriser">Priorisation</a></li>
+        </ol>
+      </aside>
+    </div>
+  </main>
+
+  <script>
+    const headings = document.querySelectorAll(".content h2");
+    const ids = [
+      "coherence-thematique",
+      "indexation-google",
+      "qualite-editoriale",
+      "trafic-organique",
+      "pages-qui-rankent",
+      "profil-liens",
+      "liens-sortants",
+      "type-lien",
+      "emplacement-backlink",
+      "prix-valeur",
+      "page-destination",
+      "prioriser",
+      "conclusion"
+    ];
+
+    headings.forEach((heading, index) => {
+      if (ids[index]) heading.id = ids[index];
+    });
+  </script>
+</body>
+</html>
